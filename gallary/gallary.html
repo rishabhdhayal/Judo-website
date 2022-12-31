@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet" />
+    <title>Gallary</title>
+    <link rel="stylesheet" href="gallary.css" />
+    <script>
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="head1">
+                <div class="logo"><img src="/images/logo.png" alt="" /></div>
+                <li class="icon">
+                    <a href="" onclick="myFunction()">
+                        <hr width="30px" style="background: white; height: 4px; border: none" />
+                        <hr width="30px" style="background: white; height: 4px; border: none" />
+                        <hr width="30px" style="background: white; height: 4px; border: none" />
+                    </a>
+                </li>
+            </div>
+            <div class="navbar" id="navbar">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li class="active"><a href="/gallary/gallary.html">Gallary</a></li>
+                    <li><a href="/events/events.html">Events</a></li>
+                    <li><a href="/results/results.html">Results</a></li>
+                    <li><a href="/documents/documents.html">Documents</a></li>
+                    <li><a href="/about/aboutRJA.html">About RJA</a></li>
+                    <li><a href="/contact/contact.html" class="contact">Contact Us</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="notice">
+            <div class="notice-bar">
+                <div class="notice-logo">
+                    <img src="/images/judo.png" alt="" height="100%" />
+                </div>
+                <div class="notice-text">
+                    Rajasthan State Senior Trials , Jaipur <br />
+                    20 - 25 January 2023
+                </div>
+            </div>
+            <button class="notice-Btn">Register Now</button>
+        </div>
+
+        <div class="gallary">
+            <div class="g_head">GALLARY</div>
+            <div class="event">
+                <a href="/event-summary/eventDetail.html"><img src="/images/ippons.png" alt="" />
+                    <div class="event_text" style="background-color: #c31dff">
+                        Rajasthan State Senior Trials , Jaipur <br />
+                        20 - 25 January 2023
+                    </div>
+                </a>
+                <a href=""><img src="/images/champinoship.png" alt="" />
+                    <div class="event_text" style="background-color: #ff1de8">
+                        Rajasthan State Senior Trials , Jaipur <br />
+                        20 - 25 January 2023
+                    </div>
+                </a>
+                <a href=""><img src="/images/ijf-rules-img.png" alt="" />
+                    <div class="event_text" style="background-color: #ff611d">
+                        Rajasthan State Senior Trials , Jaipur <br />
+                        20 - 25 January 2023
+                    </div>
+                </a>
+                <a href=""><img src="/images/Rectangle 57.png" alt="" />
+                    <div class="event_text" style="background-color: #ff4343">
+                        Rajasthan State Senior Trials , Jaipur <br />
+                        20 - 25 January 2023
+                    </div>
+                </a>
+                <a href=""><img src="/images/main-img.jpg" alt="" />
+                    <div class="event_text" style="background-color: #ff4343">
+                        Rajasthan State Senior Trials , Jaipur <br />
+                        20 - 25 January 2023
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot">
+          Copyright © 2022 Rajasthan Judo Association. All rights reserved. <br />
+          <div class="footer-links">
+            <a href="">About </a> | <a href=""> Contact </a> |
+            <a href=""> Legal Issues</a>
+          </div>
+        </div>
+      </footer>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("navbar");
+          if (x.className === "navbar") {
+            x.className += " .hide";
+          } else {
+            x.className = "navbar";
+          }
+        }
+        </script>
+</body>
+
+</html>
